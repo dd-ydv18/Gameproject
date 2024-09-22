@@ -1,1 +1,50 @@
-Readme
+Here is a README.md specifically designed to explain how to run the *Magical Arena* project from the command prompt/terminal, without the need for an IDE:
+
+---
+
+# Magical Arena
+
+## Overview
+
+Magical Arena is a simple console-based game in Java where two players, defined by their attributes (health, strength, and attack), fight in a turn-based battle. Players use dice rolls to determine attack and defense values, and the game continues until one player's health reaches zero.
+
+
+## How to Run the Project
+
+### 1. Download the Project
+
+Download the project or clone the repository to your local machine:
+
+bash
+git clone <repository-url>
+cd <repository-directory>
+
+
+### 2. Compile the Project
+
+To compile the game, navigate to the src folder and run the following command:
+
+bash
+cd src
+javac Main.java
+
+
+This will compile all Java files and generate corresponding .class files.
+
+### 3. Run the Game
+
+Once the code is compiled, you can run the game with the following command:
+
+bash
+java Main
+
+
+
+
+The game continues until one player dies, i.e., their health reaches zero.
+
+### Notes
+
+- Player with the lower health always attacks first.
+- The damage is calculated as attack * dice roll, and the defense is calculated as strength * dice roll.
+
